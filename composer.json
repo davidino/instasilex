@@ -1,0 +1,24 @@
+{
+    "name": "followgram/crawler",
+    "type": "crawler",
+    "description": "followgram crawler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Funaro",
+            "email": "ing.davidino@gmail.com",
+            "homepage": "http://davidfunaro.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Followgram\\Crawler": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "silex/silex": "1.0.x-dev",
+        "monolog/monolog": "1.3.x-dev",
+        "guzzle/guzzle": "dev-master",
+    }
+}
