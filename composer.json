@@ -20,5 +20,6 @@
         "silex/silex": "1.0.x-dev",
         "monolog/monolog": "1.3.x-dev",
         "guzzle/guzzle": "dev-master",
+        "symfony/console": "2.2.x-dev"
     }
 }
