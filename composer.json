@@ -1,7 +1,7 @@
 {
-    "name": "followgram/crawler",
+    "name": "instagram/silex",
     "type": "crawler",
-    "description": "followgram crawler",
+    "description": "Experiment php silex for fetch instagram api",
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Followgram\\Crawler": "src/"
+            "davidino": "src/"
         }
     },
     "require": {

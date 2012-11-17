@@ -23,7 +23,7 @@ class Crawler extends Command
 	protected function configure()
 	{
 		$this
-		->setName('Follogram:sync')
+		->setName('Instagram:sync')
 			->setDefinition( array(
 		 		//Create a "--test" optional parameter
 		 		new InputOption('test', '', InputOption::VALUE_NONE, 'Test mode'),
@@ -64,7 +64,7 @@ class Crawler extends Command
 
 
 //Instantiate our Console application
-$console = new Application('Followgram', '0.1');
+$console = new Application('Instagram', '0.1');
 //Register a command to run from the command line
 //Our command will be started with "./console.php sync"
 $console->add(new Crawler);

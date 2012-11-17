@@ -8,7 +8,7 @@ use Guzzle\GuzzleServiceProvider;
 
 
 $app = new Application();
-$app['debug'] = true;
+//$app['debug'] = true;
 
 $app->register(new GuzzleServiceProvider(), array(
     'guzzle.services' => '/path/to/services.js',
